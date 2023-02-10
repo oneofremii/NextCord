@@ -41,7 +41,7 @@ client.on("ready", async() => {
     if (config.status === 'online' || config.status === 'idle' || config.status === 'dnd') {
         client.user.setStatus(config.status);
     }
-    console.logger.info('Game RPC enabled!');
+    console.logger.info('Game RPC enabled!!');
     console.logger.info('Game: ' + config.game.name);
     console.logger.info(`Status: ${!config.status ? 'default' : config.status}`)
 })
