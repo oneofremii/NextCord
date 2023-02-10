@@ -44,7 +44,7 @@ client.on("ready", async() => {
     if (config.status === 'online' || config.status === 'idle' || config.status === 'dnd') {
         client.user.setStatus(config.status);
     }
-    console.logger.info('Twitch RPC enabled!');
+    console.logger.info('Twitch RPC enabled!!');
     console.logger.info('Twitch: ' + config.twitch.state);
     console.logger.info(`Status: ${!config.status ? 'default' : config.status}`)
 })
