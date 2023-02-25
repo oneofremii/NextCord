@@ -115,3 +115,5 @@ There you go! Your Monitor is running.
 
 > :warning: **Warning:** Using a selfbot is against TOS and can get your account banned. Use it at your own risks.
 
+> ℹ️ **Information:** I Just Added Some Features And Changed A Code In This Repository, For The Full Source Code, You Can [See From github.com/mewzax/Discord-RPC-Selfbot](https://github.com/mewzax/Discord-RPC-Selfbot)
+
