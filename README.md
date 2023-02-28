@@ -9,9 +9,8 @@
  
   <br>
   <b>The most efficient Discord RPC you'll ever find.</b><br>
-  Made with ❤ by <b><a href="https://rin4ever.xyz">Rin4Ever</a></b>
+  <b> Refactor/Remastered By </b><b><a href="https://rin4ever.xyz">Rin4Ever</a> And Officially Made By <a href="https://github.com/mewzax">Mewzax</a></b>
   <br>
-  If you liked this project, please consider <b>starring</b> it <3
 </p>
 
 ---
