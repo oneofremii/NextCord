@@ -15,12 +15,11 @@
 
 ---
 
- ## Why is NextCord better than other Discord RPC ?
+## Why is NextCord better than other Discord RPC ?
 
 > because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features.
 
 ![image](https://media.discordapp.net/attachments/1068223147955998740/1068750623006281758/Screenshot_20230128_112636.png?width=240&height=468)
-
 
 ### Features:
 
@@ -28,14 +27,18 @@
 - Game RPC
 - Twitch RPC
 - Custom Status: online, dnd, idle
-![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068750809422119042/Screenshot_20230128_112215.png)
+  ![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068750809422119042/Screenshot_20230128_112215.png)
 
 # Installation
+
 ## Setting up the Client ID
+
 - Create an app on Discord Devlopers Portal
 - Go to OAuth2 and copy the CLIENT ID
 - Open config.json replace where it says applicationID at the bottom with the Client ID you copied
+
 ## Adding Images
+
 Once you have done that you can start adding images for your Rich Presence
 
 - Navigate back to the Discord Devlopers Portal
@@ -51,6 +54,7 @@ Once you have done that you can start adding images for your Rich Presence
 ![image](https://camo.githubusercontent.com/fd9e63ce894342f9bcf4b3d5aed498ecee0574cc92968f2213717e3b87988a8c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732393838383937363331353631333332372f3833353033363831333737363132353937322f646f6e652e706e67)
 
 # Host On Replit
+
 - Fork the repository
 - Go to https://www.replit.com
 - Create an account
@@ -58,10 +62,12 @@ Once you have done that you can start adding images for your Rich Presence
 - Edit config.json
 - Go to "Secrets environment variables"
 - Create the variable TOKEN and put your token
-RUN
+  RUN
 
-# FAQ 
-### - How to import spotify images 
+# FAQ
+
+### - How to import spotify images
+
 - Connect to a spotify account on browser and create a playlist with the image you want
 - Go to https://developer.spotify.com/console/get-playlist-images/
 - Open your playlist in browser and copy the ID next https://open.spotify.com/playlist/
@@ -70,6 +76,7 @@ RUN
 - Autorize the app to get your token
 - Push TRY IT button
 - Use it in the config file:
+
 ```
 largeImageKey: "spotify:YOUR-URL"
 ```
@@ -77,16 +84,20 @@ largeImageKey: "spotify:YOUR-URL"
 <br />
 
 # How To Make Keep Alive
+
 Uptime Robot is all about helping you to keep your websites up. It monitors your websites every 5 minutes and alerts you if your sites are down.
+
 > its 100% free It will keep your server up until your server ran into problems.
 
 UptimeRobot setup Once you log into your UptimeRobot account.
+
 > Go to Dashboard (default screen for uptimerobot is dashboard) To add new link. Click Add New Monitor
 
 ![image](https://camo.githubusercontent.com/c09d7680c8ee97d9c84d6b66d45bbb47a6f9125236a0acb98ef64f035a4935d7/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303435373935325f62303034663032623166636335633465626266643964643461633665373261332e706e)
 Once you click that. This Screen will popup:
 ![image](https://camo.githubusercontent.com/b49e3cd4eb7d9706cb48c11f5e91d87a5ab83a78b848df8825588c2b301d8484/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303539313630395f36333732656333326632306133623965363938633664313730363536303865642e706e)
 Now Select Monitor type HTTP(s).
+
 > Make sure type is HTTP(s) not ping or other
 
 Now details popped up like these
@@ -101,6 +112,7 @@ Now if you have all the info done. your page should look like this
 ![image](https://camo.githubusercontent.com/d42c1f1ae2291856612dff223109121ada4c834889ffd57f933a9e2493b2784b/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303633383837315f61373131656132366231363331306335323637396439633334366432313232312e706e)
 Now you also have this box:
 ![image](https://camo.githubusercontent.com/df78c63596c4b4909ac6298685896c92ad9c1af9232ab668cd3c639b921c98f8/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303738393533335f63653436396131323539636533376266613135663430663035633232393131632e706e)
+
 > This means that if you select this, and your server is down or ran into any problems. UptimeRobot will alert you by sending an email. I suggest you add alert notify
 
 Now click Create Monitor You have successfully created a monitor. Now your server will stay online, even if you're not running your code.
@@ -110,9 +122,9 @@ On your dashboard, your monitor will appear:
 as you see, it showing that your server is down. Your server is not down. To fix this just give it 1-2 min and reload your page.
 ![image](https://camo.githubusercontent.com/3309ea7f87a91e03f8cd66a8b9e0f9f41a65afcecd8f4343087a3e604b254ecd/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303732343335365f63353635376236646338333730366662343637363061386666386434616362372e706e)
 There you go! Your Monitor is running.
+
 ### Disclaimer
 
 > :warning: **Warning:** Using a selfbot is against TOS and can get your account banned. Use it at your own risks.
 
 > ℹ️ **Information:** I Just Added Some Features And Changed A Code In This Repository, For The Full Source Code, You Can [See From github.com/mewzax/Discord-RPC-Selfbot](https://github.com/mewzax/Discord-RPC-Selfbot)
-
