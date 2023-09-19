@@ -1,6 +1,6 @@
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "",
     // dnd/online/idle
     "status": "",
 
@@ -16,7 +16,7 @@ module.exports = {
 
         "smallImageKey": "", // Small Image
         "smallImageText": "",
-        
+
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
         "endTimestamp": "" // time left since this timestamp (decrease --)
@@ -30,7 +30,7 @@ module.exports = {
 
         "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
         "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
-        
+
         "smallImageKey": "",
         "smallImageText": "",
 
@@ -44,10 +44,10 @@ module.exports = {
 
         "largeImageKey": "", // https://github.com/rinxyzz/NextCord#--how-to-import-spotify-images
         "largeImageText": "", // will also be second row below title
-        
+
         "smallImageKey": "",
         "smallImageText": "",
-        
+
         "startTimestamp": "",
         "endTimestamp": "",
     }
