@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Rin4Ever",
-  "license": "ISC",
+  "author": "mikaamoe",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "discordrpcgenerator": "^1.2.0",
